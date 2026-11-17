@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/mehrantraders_new/css/mehrantraders_new.css"
-# app_include_js = "/assets/mehrantraders_new/js/mehrantraders_new.js"
+app_include_js = "/assets/mehrantraders_new/js/qty_calc.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/mehrantraders_new/css/mehrantraders_new.css"
@@ -83,7 +83,8 @@ app_license = "mit"
 # ------------
 
 # before_install = "mehrantraders_new.install.before_install"
-# after_install = "mehrantraders_new.install.after_install"
+after_install = "mehrantraders_new.setup.after_install"
+after_migrate = "mehrantraders_new.setup.after_migrate"
 
 # Uninstallation
 # ------------
