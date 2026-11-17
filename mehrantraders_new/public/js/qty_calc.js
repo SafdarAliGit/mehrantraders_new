@@ -18,7 +18,7 @@
 	function get_coil_groups() {
 		if (!coil_groups_promise) {
 			coil_groups_promise = frappe
-				.xcall("mehrantraders_new.setup.get_coil_item_groups")
+				.xcall("mehrantraders_new.api.get_coil_item_groups")
 				.then((groups) => new Set(groups || []))
 				.catch(() => {
 					coil_groups_promise = null;

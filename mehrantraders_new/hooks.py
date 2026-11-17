@@ -83,8 +83,7 @@ app_include_js = "/assets/mehrantraders_new/js/qty_calc.js"
 # ------------
 
 # before_install = "mehrantraders_new.install.before_install"
-after_install = "mehrantraders_new.setup.after_install"
-after_migrate = "mehrantraders_new.setup.after_migrate"
+# after_install = "mehrantraders_new.install.after_install"
 
 # Uninstallation
 # ------------
